@@ -22,7 +22,7 @@ public class MainMenuPanel extends JPanel {
 
 
         // Memuat gambar dari direktori yang sama dengan class MainMenuPanel (package ui)
-        backgroundImage = Toolkit.getDefaultToolkit().getImage(getClass().getResource("src/component/bgUI2.png"));
+        backgroundImage = Toolkit.getDefaultToolkit().getImage(getClass().getResource("component/bgUI2.png"));
         super.setBackground(Color.BLACK);
 
 
